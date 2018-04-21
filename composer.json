@@ -1,0 +1,24 @@
+{
+    "name": "zqhong/fastd-aliyun-mns",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zqhong",
+            "email": "zqh0513@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zqhong\\FastdAliyunMNS\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "fastd/container": "^3.2",
+        "fastd/config": "^3.2",
+        "uax/mns": "^1.3"
+    }
+}
