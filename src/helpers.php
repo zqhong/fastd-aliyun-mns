@@ -2,7 +2,7 @@
 
 if (!function_exists('aliyun_mns')) {
     /**
-     * @return \AliyunMNS\Client
+     * @return \Zqhong\FastdAliyunMNS\Client
      */
     function aliyun_mns()
     {
